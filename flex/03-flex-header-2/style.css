@@ -50,11 +50,11 @@ ul {
   list-style-type: none;
 }
 /*solution*/
-
+/*en vez de margin podria haber usado padding en .header*/
 .header {
   display: flex;
-  /*align-items: center;
-  justify-content: center;*/
+  align-items: center;
+  justify-content: center;
 }
 
 
