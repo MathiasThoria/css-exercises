@@ -26,3 +26,69 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*solucion*/
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.content-conteiner{
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-conteiner{
+  flex: 1;  
+}
+.sidebar-conteiner{
+  background: royalblue;
+  /*padding: 10px; */
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin:0;  
+}
+li{
+  margin: 10px;
+}
+
+a{
+  text-decoration: none;
+  color:#eee;
+}
+.card-conteiner {
+  flex: 1;
+  display: flex;
+  /*gap: 20px;
+  padding: 20px;*/
+  /*justify-content: space-evenly;*/
+  flex-wrap: wrap;
+}
+.card {
+  flex: 1 1 auto;
+  margin: 20px;
+  max-width: 200px;
+  padding: 10px;
+}
+
+.header{
+  /*flex: 0 0 0;*/
+  font-weight: 800;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+
+}
+
+.footer{
+  /*flex:0 0 0;*/
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
