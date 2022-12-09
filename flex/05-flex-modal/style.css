@@ -67,7 +67,7 @@ button.cancel {
 }
 
 /*solution*/
-.modal{
+.modal{ 
   padding: 10px;
 }
 .conteiner-header, .modal{
@@ -92,8 +92,6 @@ div{
   display:flex;
   justify-content: flex-end;
   flex: 1;
-}
-.right{
   align-items: flex-end;
 }
 .conteiner-header{
